@@ -1,7 +1,0 @@
-listOfNumbers = [1, 2, 3, 4] // Defining my_list with values
-def add(alist) : // Defining “add” function
-  sum = 0
-  for x in alist :
-    sum += x
-  return sum
-print(add(listOfNumbers)) // Print the sum of list values
