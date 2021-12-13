@@ -40,8 +40,6 @@ void palindrome::isPalindrome() {
 	//two iterators respectively. If at any point there is a difference then they are not equal and the loop is ended and the 
 	//program stops running.
 	for (int i = 0; i < len; ++i) {
-		//compare the front of the string which i is at to the back of the string which the length of the string - 1 is at. 
-		//It is length - 1 because the length does not start at 0 however the index of the string does
 		if (strPal[i] != strPal[len-1]) {
 			std::cout << strPal << " is not a palindrome" << std::endl;
 			//if this is false the program will not print the true statement
